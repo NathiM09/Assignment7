@@ -4,21 +4,97 @@
              x:Class="assignment_7.MainPage">
 
     <StackLayout>
-        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
-            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        <Frame BackgroundColor="#3030AB" Padding="24" CornerRadius="0">
+            <Label Text="Facebook" HorizontalTextAlignment="Start" TextColor="White" FontSize="36"/>
         </Frame>
-        <Label Text="Start developing now" FontSize="Title" Padding="30,10,30,10"/>
-        <Label Text="Make changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="30,0,30,0"/>
-        <Label FontSize="16" Padding="30,24,30,0">
-            <Label.FormattedText>
-                <FormattedString>
-                    <FormattedString.Spans>
-                        <Span Text="Learn more at "/>
-                        <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold"/>
-                    </FormattedString.Spans>
-                </FormattedString>
-            </Label.FormattedText>
-        </Label>
-    </StackLayout>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <BoxView Color="blue" />
+            <Button Text="Home" Clicked="Button_Clicked"
+                    BackgroundColor="Blue"
+                    TextColor="white"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" FontSize="Small" />
+            <BoxView Grid.Column="1"
+                 Color="Blue" />
+            <Button Grid.Column="1"
+                    BackgroundColor="Blue"
+                    TextColor="White"
+               Text="Groups"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" FontSize="Small" />
+            <BoxView Grid.Column="2"
+                 Color="Blue" />
+            <Button Grid.Column="2"
+                    BackgroundColor="Blue"
+                    TextColor="White"
+               Text="Watch"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" FontSize="Small" />
+            <BoxView Grid.Column="3"
+                 Color="Blue" />
+            <Button Grid.Column="3"
+                    BackgroundColor="Blue"
+                    TextColor="white"
+               Text="Notifications"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" FontSize="Small" />
+            <BoxView Grid.Column="4"
+                 Color="Blue" />
+            <Button Grid.Column="4"
+                    BackgroundColor="Blue"
+                    TextColor="White"
+               Text="Menu"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" FontSize="Small" />
+            
+           
+        </Grid>
+
+        <StackLayout>
+           
+                <Button 
+                    BackgroundColor="White"
+                    TextColor="Black"
+               Text="What's on your mind?" />
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Button  Padding="0" Grid.Column="0"
+                    BackgroundColor="Blue"
+                    TextColor="White"
+               Text="Live"
+               HorizontalOptions="StartAndExpand" WidthRequest="200"
+               FontSize="Small" />
+                <Button  Padding="0" Margin="0" Grid.Column="1"
+                    BackgroundColor="Blue"
+                    TextColor="white"
+               Text="Photo" WidthRequest="200"
+               HorizontalOptions="StartAndExpand"
+                FontSize="Small" />
+            <Button Grid.Column="2"
+                    BackgroundColor="Blue"
+                    TextColor="white" WidthRequest="200"
+               Text="Room"
+               HorizontalOptions="Center"
+                FontSize="Small" />
+            </Grid>
+        </StackLayout>
+          </StackLayout>
+
 
 </ContentPage>
