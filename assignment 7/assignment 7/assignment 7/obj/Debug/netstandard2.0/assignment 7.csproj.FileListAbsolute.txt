@@ -1,0 +1,14 @@
+C:\xamarin\Assignment 7\assignment 7\assignment 7\assignment 7\bin\Debug\netstandard2.0\assignment 7.deps.json
+C:\xamarin\Assignment 7\assignment 7\assignment 7\assignment 7\bin\Debug\netstandard2.0\assignment 7.dll
+C:\xamarin\Assignment 7\assignment 7\assignment 7\assignment 7\bin\Debug\netstandard2.0\ref\assignment 7.dll
+C:\xamarin\Assignment 7\assignment 7\assignment 7\assignment 7\bin\Debug\netstandard2.0\assignment 7.pdb
+C:\xamarin\Assignment 7\assignment 7\assignment 7\assignment 7\obj\Debug\netstandard2.0\assignment 7.csprojAssemblyReference.cache
+C:\xamarin\Assignment 7\assignment 7\assignment 7\assignment 7\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\xamarin\Assignment 7\assignment 7\assignment 7\assignment 7\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\xamarin\Assignment 7\assignment 7\assignment 7\assignment 7\obj\Debug\netstandard2.0\assignment 7.AssemblyInfoInputs.cache
+C:\xamarin\Assignment 7\assignment 7\assignment 7\assignment 7\obj\Debug\netstandard2.0\assignment 7.AssemblyInfo.cs
+C:\xamarin\Assignment 7\assignment 7\assignment 7\assignment 7\obj\Debug\netstandard2.0\assignment 7.csproj.CoreCompileInputs.cache
+C:\xamarin\Assignment 7\assignment 7\assignment 7\assignment 7\obj\Debug\netstandard2.0\XamlC.stamp
+C:\xamarin\Assignment 7\assignment 7\assignment 7\assignment 7\obj\Debug\netstandard2.0\assignment 7.dll
+C:\xamarin\Assignment 7\assignment 7\assignment 7\assignment 7\obj\Debug\netstandard2.0\ref\assignment 7.dll
+C:\xamarin\Assignment 7\assignment 7\assignment 7\assignment 7\obj\Debug\netstandard2.0\assignment 7.pdb

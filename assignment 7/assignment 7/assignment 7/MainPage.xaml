@@ -30,7 +30,7 @@
             <Button Grid.Column="1"
                     BackgroundColor="Blue"
                     TextColor="White"
-               Text="Groups"
+               Text="Groups" Clicked="Button_Clicked"
                HorizontalOptions="Center"
                VerticalOptions="Center" FontSize="Small" />
             <BoxView Grid.Column="2"
@@ -38,7 +38,7 @@
             <Button Grid.Column="2"
                     BackgroundColor="Blue"
                     TextColor="White"
-               Text="Watch"
+               Text="Watch" Clicked="Button_Clicked"
                HorizontalOptions="Center"
                VerticalOptions="Center" FontSize="Small" />
             <BoxView Grid.Column="3"
@@ -46,7 +46,7 @@
             <Button Grid.Column="3"
                     BackgroundColor="Blue"
                     TextColor="white"
-               Text="Notifications"
+               Text="Notifications" Clicked="Button_Clicked"
                HorizontalOptions="Center"
                VerticalOptions="Center" FontSize="Small" />
             <BoxView Grid.Column="4"
@@ -54,7 +54,7 @@
             <Button Grid.Column="4"
                     BackgroundColor="Blue"
                     TextColor="White"
-               Text="Menu"
+               Text="Menu" Clicked="Button_Clicked"
                HorizontalOptions="Center"
                VerticalOptions="Center" FontSize="Small" />
             
@@ -77,19 +77,19 @@
                 <Button  Padding="0" Grid.Column="0"
                     BackgroundColor="Blue"
                     TextColor="White"
-               Text="Live"
+               Text="Live" Clicked="Button_Clicked"
                HorizontalOptions="StartAndExpand" WidthRequest="200"
                FontSize="Small" />
                 <Button  Padding="0" Margin="0" Grid.Column="1"
                     BackgroundColor="Blue"
                     TextColor="white"
-               Text="Photo" WidthRequest="200"
+               Text="Photo" WidthRequest="200" Clicked="Button_Clicked"
                HorizontalOptions="StartAndExpand"
                 FontSize="Small" />
             <Button Grid.Column="2"
                     BackgroundColor="Blue"
                     TextColor="white" WidthRequest="200"
-               Text="Room"
+               Text="Room" Clicked="Button_Clicked"
                HorizontalOptions="Center"
                 FontSize="Small" />
             </Grid>
